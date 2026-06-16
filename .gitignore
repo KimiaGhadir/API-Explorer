@@ -41,8 +41,3 @@ Thumbs.db
 # Misc
 *.swp
 *.swo
-
-# Optional: lockfile only if you don't want to commit it
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml

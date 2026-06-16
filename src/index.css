@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply transition-colors duration-300;
+  }
+
+  body {
+    @apply min-h-screen bg-[#f8fafc] text-slate-900 transition-colors duration-300;
+  }
+
+  html.dark body {
+    @apply bg-[#0f172a] text-white;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+}
+
+.dark .bg-white {
+  @apply bg-slate-800;
+}
+
+.dark .bg-slate-50 {
+  @apply bg-slate-900/50;
+}
+
+.dark .text-slate-800 {
+  @apply text-white;
+}
+
+.dark .text-slate-700 {
+  @apply text-slate-300;
+}
+
+.dark .border-slate-100 {
+  @apply border-slate-700;
+}
+
+.dark .shadow-lg {
+  @apply shadow-slate-900/50;
+}
