@@ -1,16 +1,44 @@
-# React + Vite
+# API Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, lightweight **API Explorer / REST Client** built with **React**, **Vite**, **Tailwind CSS**, and **Axios**.  
+This app helps you quickly compose API requests, inspect responses, manage multiple tabs, and keep a local history of your requests.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Create and manage multiple request tabs
+- Send HTTP requests with support for:
+  - `GET`
+  - `POST`
+  - `PUT`
+  - `PATCH`
+  - `DELETE`
+  - and other HTTP methods
+- Add custom headers and query parameters
+- Send JSON request bodies for non-GET methods
+- View API responses and status codes
+- Track request history per tab
+- Import/export tab or history data
+- Light/Dark theme support
+- Persistent tabs stored in `localStorage`
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **Axios**
+- **Lucide React**
+- **ESLint**
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js 18+ recommended
+- npm, yarn, or pnpm
+
+### Installation
+```bash
+git clone <your-repo-url>
+cd t2
+npm install
