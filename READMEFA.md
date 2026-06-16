@@ -1,9 +1,3 @@
-
----
-
-# `README.md` (فارسی)
-
-```md
 # API Explorer
 
 یک **API Explorer / REST Client** سبک و مدرن که با **React**، **Vite**، **Tailwind CSS** و **Axios** ساخته شده است.  
